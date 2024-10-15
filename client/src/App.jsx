@@ -33,7 +33,7 @@ const Main = () => {
         </div>
       </div>
       <Navbar />
-      <div className="sm:mx-40 mt- text-xl text-center sm:text-left bg-black  transition opacity-100 h-[50vh]">
+      <div className="sm:mx-40 mt- text-xl text-center sm:text-left bg-black  transition opacity-100  min-h-[50vh] ">
         {nav == "About" && <About />}
         {nav == "Technical" && <Technical />}
         {nav == "Education" && <Education />}
